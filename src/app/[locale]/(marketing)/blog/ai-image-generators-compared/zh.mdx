@@ -1,0 +1,83 @@
+import { BlogLayout } from "@/components/blog-layout";
+
+export const blog = {
+  author: { name: "Toolso.AI", src: "/avatar.jpeg" },
+  date: "2025-01-02",
+  title: "AI图像生成器对比：Midjourney vs DALL-E vs Stable Diffusion",
+  description:
+    "全面对比顶级AI图像生成器。了解每个平台的优缺点，选择最适合您创意需求的工具。",
+  image:
+    "https://images.unsplash.com/photo-1547954575-855750c57bd3?w=800&auto=format&fit=crop&q=60",
+};
+export const metadata = {
+  title: blog.title,
+  description: blog.description,
+  openGraph: {
+    images: [blog.image],
+  },
+};
+
+export default (props) => <BlogLayout blog={blog} {...props} />;
+
+## AI图像生成的崛起
+
+AI图像生成已经从新奇事物演变为必不可少的创意工具。在本指南中，我们对比三大领先平台，帮助您做出明智的选择。
+
+## Midjourney
+
+### 优势
+- **艺术质量** - 以最小的努力产出令人惊叹的艺术图像
+- **社区** - 活跃的Discord社区提供灵感
+- **一致性** - 跨代生成的风格和质量可靠
+
+### 劣势
+- 仅支持Discord界面（网页应用处于测试阶段）
+- 对输出的精细控制有限
+- 所有使用都需要订阅
+
+### 最适合
+艺术家、设计师，以及任何追求高质量艺术图像的人。
+
+## DALL-E 3
+
+### 优势
+- **提示词理解** - 业界最佳的文本理解能力
+- **集成** - 内置于ChatGPT和Microsoft产品中
+- **文字渲染** - 在图像中包含文字的效果极佳
+
+### 劣势
+- 内容政策更为保守
+- 风格灵活性较低
+- 基于积分的定价
+
+### 最适合
+营销人员、内容创作者，以及需要精确遵循提示词的用户。
+
+## Stable Diffusion
+
+### 优势
+- **开源** - 可本地运行，自由修改
+- **定制化** - 广泛的模型微调选项
+- **成本** - 在自己的硬件上免费运行
+
+### 劣势
+- 学习曲线较陡
+- 需要技术设置才能获得最佳结果
+- 质量取决于模型和设置
+
+### 最适合
+开发者、研究人员，以及想要完全控制的高级用户。
+
+## 对比表格
+
+| 特性 | Midjourney | DALL-E 3 | Stable Diffusion |
+|------|------------|----------|------------------|
+| 图像质量 | 优秀 | 很好 | 好到优秀 |
+| 易用性 | 好 | 优秀 | 中等 |
+| 价格 | $10-60/月 | 按使用付费 | 免费（自托管） |
+| 定制化 | 有限 | 有限 | 广泛 |
+| 本地运行 | 否 | 否 | 是 |
+
+## 结论
+
+每个平台在AI图像生成生态系统中都有其位置。在做出选择时，请考虑您的具体需求、技术熟练程度和预算。在 Toolso.AI 探索更多AI图像工具。

@@ -1,0 +1,24 @@
+# robots.txt for Toolso.AI - AI Tools Directory
+# https://toolso.ai
+
+User-agent: *
+Allow: /
+
+# Disallow admin and API pages
+Disallow: /admin/
+Disallow: /api/
+
+# Disallow authentication pages
+Disallow: /*/signup
+Disallow: /*/login
+Disallow: /*/check-email
+Disallow: /*/verify-email
+Disallow: /*/forgot-password
+Disallow: /*/reset-password
+
+# Disallow protected user pages
+Disallow: /*/dashboard
+Disallow: /*/profile
+
+# Sitemap location
+Sitemap: https://toolso.ai/sitemap.xml

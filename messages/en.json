@@ -1,0 +1,627 @@
+{
+  "common": {
+    "brand": {
+      "name": "Toolso.AI",
+      "tagline": "Discover the Best AI Tools",
+      "copyright": "Copyright © 2025",
+      "allRightsReserved": "All rights reserved"
+    },
+    "actions": {
+      "signIn": "Sign in",
+      "signUp": "Sign Up",
+      "signOut": "Sign Out",
+      "getStarted": "Get Started",
+      "startFree": "Start Free",
+      "learnMore": "Learn More",
+      "viewAll": "View All",
+      "submit": "Submit",
+      "cancel": "Cancel",
+      "save": "Save",
+      "delete": "Delete",
+      "edit": "Edit",
+      "update": "Update",
+      "continue": "Continue",
+      "back": "Back",
+      "next": "Next"
+    },
+    "status": {
+      "loading": "Loading...",
+      "verified": "Verified",
+      "pending": "Pending",
+      "active": "Active",
+      "inactive": "Inactive"
+    }
+  },
+  "navigation": {
+    "main": {
+      "tools": "Tools",
+      "blog": "Blog",
+      "contact": "Contact",
+      "dashboard": "Dashboard",
+      "profile": "Profile"
+    },
+    "footer": {
+      "legal": {
+        "terms": "Terms of Service",
+        "privacy": "Privacy Policy",
+        "cookies": "Cookie Policy"
+      },
+      "social": {
+        "twitter": "Twitter",
+        "linkedin": "LinkedIn",
+        "github": "GitHub"
+      }
+    }
+  },
+  "hero": {
+    "badge": "Discover the Best AI Tools",
+    "title": "Discover the Best AI Tools",
+    "description": "Explore our curated collection of AI tools. Find the perfect tools for productivity, creativity, development, and more.",
+    "cta": {
+      "primary": "Explore Tools",
+      "secondary": "Read Blog"
+    }
+  },
+  "features": {
+    "title": "Everything You Need to Build Fast",
+    "subtitle": "Stop wasting time on boilerplate. Focus on your unique features while this template handles the foundation.",
+    "items": {
+      "aiOptimized": {
+        "title": "Modern Tech Stack",
+        "description": "Built with Next.js 14, TypeScript, Tailwind CSS, and PostgreSQL. Production-ready from day one."
+      },
+      "zeroPipeline": {
+        "title": "Authentication Ready",
+        "description": "Email/password and Google OAuth configured. Session management and protected routes ready to use."
+      },
+      "nonTechnical": {
+        "title": "Admin Dashboard",
+        "description": "Complete admin panel for user management. Monitor your users and manage permissions easily."
+      },
+      "productionGrade": {
+        "title": "Blog System Included",
+        "description": "MDX-powered blog with i18n support. Create content in multiple languages with SEO optimization."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Trusted by AI Enthusiasts",
+    "subtitle": "Join thousands of users discovering the best AI tools for their workflows.",
+    "items": [
+      {
+        "name": "Sarah Chen",
+        "quote": "Toolso.AI helped me find the perfect AI writing assistant. The categorization makes discovery so easy!",
+        "designation": "Content Creator"
+      },
+      {
+        "name": "Michael Park",
+        "quote": "Finally, a comprehensive AI tools directory that's well-organized. Saved me hours of research.",
+        "designation": "Product Manager"
+      },
+      {
+        "name": "Emily Rodriguez",
+        "quote": "I discover new AI tools every week on Toolso.AI. It's become my go-to resource for AI exploration.",
+        "designation": "Startup Founder"
+      },
+      {
+        "name": "David Kim",
+        "quote": "The search and filter features are incredibly helpful. Found exactly what I needed in minutes.",
+        "designation": "Software Engineer"
+      },
+      {
+        "name": "Lisa Wang",
+        "quote": "Love the multilingual support! Makes it easy to explore AI tools in both English and Chinese.",
+        "designation": "Digital Marketer"
+      },
+      {
+        "name": "James Liu",
+        "quote": "Great resource for staying up-to-date with the latest AI tools. The blog section is also very informative.",
+        "designation": "AI Researcher"
+      }
+    ]
+  },
+  "companies": {
+    "title": "Built with Industry-Leading Technologies",
+    "subtitle": "Built on modern stack trusted by the world's best teams"
+  },
+  "gridFeatures": {
+    "aiReady": {
+      "title": "Extensible Architecture",
+      "description": "Clean, modular code structure. Easy to add new features and integrations."
+    },
+    "creem": {
+      "title": "Database Ready",
+      "description": "PostgreSQL with Drizzle ORM configured. Type-safe queries and migrations ready."
+    },
+    "auth": {
+      "title": "Authentication System",
+      "description": "Better Auth with email/password and OAuth. Session management and protected routes ready."
+    },
+    "deploy": {
+      "title": "One-Click Deploy",
+      "description": "Deploy to Vercel, Railway, or any platform instantly. Production-ready from day one."
+    },
+    "typescript": {
+      "title": "TypeScript + Tailwind",
+      "description": "Modern tech stack with Next.js 14, TypeScript, Tailwind CSS, and shadcn/ui components."
+    },
+    "database": {
+      "title": "Admin Dashboard",
+      "description": "Complete admin panel for user management and system monitoring."
+    },
+    "seo": {
+      "title": "SEO & Marketing",
+      "description": "Meta tags, Open Graph, sitemap, and analytics. Everything for organic growth."
+    },
+    "vibeCoding": {
+      "title": "Blog System",
+      "description": "MDX-powered blog with multi-language support. Create content that ranks."
+    }
+  },
+  "cta": {
+    "title": "Find Your Perfect AI Tool",
+    "description": "Browse our curated collection of AI tools and discover what works best for you.",
+    "button": "Explore Tools"
+  },
+  "auth": {
+    "login": {
+      "title": "Sign in to your account",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "hello@example.com",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "••••••••",
+      "forgotPassword": "Forgot password?",
+      "noAccount": "Don't have an account?",
+      "signUpLink": "Sign Up",
+      "signInButton": "Sign in",
+      "signingIn": "Signing in...",
+      "errors": {
+        "invalidEmail": "Please enter valid email",
+        "emailRequired": "Please enter email",
+        "passwordRequired": "Please enter password",
+        "loginFailed": "Login failed. Please try again.",
+        "googleLoginFailed": "Google login failed. Please try again."
+      }
+    },
+    "signup": {
+      "title": "Sign up for an account",
+      "nameLabel": "Full name",
+      "namePlaceholder": "John Doe",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "hello@example.com",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "••••••••",
+      "hasAccount": "Already have an account?",
+      "signInLink": "Sign in",
+      "signUpButton": "Sign Up",
+      "signingUp": "Signing up...",
+      "errors": {
+        "nameRequired": "Please enter your name",
+        "invalidEmail": "Please enter valid email",
+        "emailRequired": "Please enter email",
+        "passwordRequired": "Please enter password",
+        "signupFailed": "Sign up failed. Please try again.",
+        "googleSignupFailed": "Google sign up failed. Please try again."
+      }
+    },
+    "social": {
+      "googleSignIn": "Continue with Google",
+      "or": "Or continue with"
+    },
+    "checkEmail": {
+      "title": "Check Your Email",
+      "description": "We've sent a verification link to your email address. Please click the link to verify your account and get started.",
+      "notReceived": "Didn't receive the email?",
+      "checkSpam": "Check your spam or junk folder",
+      "checkEmailCorrect": "Make sure you entered the correct email",
+      "waitAndCheck": "Wait a few minutes and check again",
+      "resendButton": "Resend Verification Email",
+      "resending": "Sending...",
+      "resendSuccess": "Verification email sent successfully! Please check your inbox.",
+      "resendError": "Failed to resend verification email.",
+      "backToLogin": "Back to Login",
+      "securityNote": "For your security, the verification link will expire in 24 hours."
+    },
+    "verifyEmail": {
+      "verifying": "Verifying Email",
+      "verifyingDescription": "Please wait while we verify your email address...",
+      "success": "Email Verified!",
+      "successDescription": "Your email has been successfully verified! Redirecting to login...",
+      "alreadyVerified": "Already Verified",
+      "failed": "Verification Failed",
+      "goToLogin": "Go to Login",
+      "backToSignUp": "Back to Sign Up",
+      "requestNew": "Request New Verification Email",
+      "checkSpamNote": "Check your spam folder if you don't see our emails"
+    },
+    "emailVerifiedGuard": {
+      "title": "Email Verification Required",
+      "description": "Please verify your email address to access this page. Check your inbox for the verification link we sent to:",
+      "resendButton": "Resend Verification Email",
+      "resending": "Sending...",
+      "resendSuccess": "Verification email sent! Please check your inbox.",
+      "resendError": "Failed to send verification email. Please try again.",
+      "signOutLink": "Sign out and try a different account"
+    }
+  },
+  "Admin": {
+    "sidebar": {
+      "title": "Admin Panel",
+      "subtitle": "System Management",
+      "dashboard": "Dashboard",
+      "tools": "Tools",
+      "categories": "Categories",
+      "tags": "Tags",
+      "users": "Users",
+      "backToDashboard": "Back to User Dashboard"
+    },
+    "header": {
+      "welcome": "Welcome",
+      "adminBadge": "Admin"
+    },
+    "dashboard": {
+      "title": "Admin Dashboard",
+      "totalUsers": "Total Users",
+      "activeUsers": "Active Users",
+      "recentUsers": "Recent Users",
+      "viewAllUsers": "View All Users"
+    },
+    "toolsManagement": {
+      "title": "Tools Management",
+      "totalCount": "{count} tools",
+      "searchPlaceholder": "Search tool name or slug...",
+      "allStatus": "All Status",
+      "published": "Published",
+      "draft": "Draft",
+      "addTool": "Add Tool",
+      "tool": "Tool",
+      "slug": "Slug",
+      "status": "Status",
+      "createdAt": "Created",
+      "actions": "Actions",
+      "noData": "No tools data",
+      "previous": "Previous",
+      "next": "Next",
+      "confirmDelete": "Are you sure you want to delete \"{name}\"? This action cannot be undone.",
+      "deleted": "Tool deleted",
+      "deleteFailed": "Delete failed",
+      "statusUpdated": "Status updated",
+      "statusUpdateFailed": "Status update failed",
+      "toDraft": "Set to draft",
+      "publish": "Publish",
+      "edit": "Edit",
+      "visitWebsite": "Visit website",
+      "delete": "Delete",
+      "modal": {
+        "editTitle": "Edit Tool",
+        "addTitle": "Add Tool",
+        "basicInfo": "Basic Information",
+        "linksAndImages": "Links & Images",
+        "categories": "Categories",
+        "tags": "Tags",
+        "slug": "Slug",
+        "status": "Status",
+        "nameEn": "English Name",
+        "nameZh": "Chinese Name",
+        "descriptionEn": "English Description",
+        "descriptionZh": "Chinese Description",
+        "domain": "Domain",
+        "websiteUrl": "Website URL",
+        "logoUrl": "Logo URL",
+        "coverImageUrl": "Cover Image URL",
+        "cancel": "Cancel",
+        "saving": "Saving...",
+        "saveChanges": "Save Changes",
+        "createTool": "Create Tool",
+        "requiredField": "Please fill in required fields",
+        "updated": "Tool updated",
+        "created": "Tool created",
+        "updateFailed": "Update failed",
+        "createFailed": "Create failed"
+      }
+    },
+    "categoriesManagement": {
+      "title": "Categories Management",
+      "addCategory": "Add Category",
+      "order": "Order",
+      "category": "Category",
+      "slug": "Slug",
+      "toolCount": "Tools",
+      "toolCountLabel": "{count} tools",
+      "actions": "Actions",
+      "noData": "No categories data",
+      "edit": "Edit",
+      "delete": "Delete",
+      "cannotDelete": "This category has {count} tools, cannot delete",
+      "confirmDelete": "Are you sure you want to delete category \"{name}\"?",
+      "deleted": "Category deleted",
+      "deleteFailed": "Delete failed",
+      "modal": {
+        "editTitle": "Edit Category",
+        "addTitle": "Add Category",
+        "slug": "Slug",
+        "icon": "Icon (emoji)",
+        "nameEn": "English Name",
+        "nameZh": "Chinese Name",
+        "sortOrder": "Sort Order",
+        "descriptionEn": "English Description",
+        "descriptionZh": "Chinese Description",
+        "cancel": "Cancel",
+        "saving": "Saving...",
+        "saveChanges": "Save Changes",
+        "createCategory": "Create Category",
+        "requiredField": "Please fill in required fields",
+        "updated": "Category updated",
+        "created": "Category created",
+        "updateFailed": "Update failed",
+        "createFailed": "Create failed"
+      }
+    },
+    "tagsManagement": {
+      "title": "Tags Management",
+      "searchPlaceholder": "Search tags...",
+      "addTag": "Add Tag",
+      "toolCountLabel": "{count} tools",
+      "noData": "No tags data",
+      "edit": "Edit",
+      "delete": "Delete",
+      "confirmDeleteWithTools": "This tag is used by {count} tools. Deleting it will remove the tag from these tools. Continue?",
+      "confirmDelete": "Are you sure you want to delete tag \"{name}\"?",
+      "deleted": "Tag deleted",
+      "deleteFailed": "Delete failed",
+      "modal": {
+        "editTitle": "Edit Tag",
+        "addTitle": "Add Tag",
+        "slug": "Slug",
+        "nameEn": "English Name",
+        "nameZh": "Chinese Name",
+        "cancel": "Cancel",
+        "saving": "Saving...",
+        "saveChanges": "Save Changes",
+        "createTag": "Create Tag",
+        "requiredField": "Please fill in required fields",
+        "updated": "Tag updated",
+        "created": "Tag created",
+        "updateFailed": "Update failed",
+        "createFailed": "Create failed"
+      }
+    },
+    "users": {
+      "searchPlaceholder": "Search by name or email...",
+      "user": "User",
+      "role": "Role",
+      "status": "Status",
+      "joined": "Joined",
+      "actions": "Actions",
+      "admin": "Admin",
+      "banned": "Banned",
+      "active": "Active",
+      "unverified": "Unverified",
+      "verified": "Verified",
+      "emailVerified": "Email Verified",
+      "edit": "Edit",
+      "ban": "Ban",
+      "unban": "Unban",
+      "viewDetails": "View Details",
+      "banReason": "Ban Reason",
+      "banExpires": "Ban Expires",
+      "userDetails": "User Details",
+      "name": "Name",
+      "email": "Email",
+      "lastActive": "Last Active",
+      "close": "Close",
+      "roleUpdated": "Role updated successfully",
+      "roleUpdateFailed": "Failed to update role",
+      "userBanned": "User has been banned",
+      "userUnbanned": "User has been unbanned",
+      "banFailed": "Failed to ban/unban user",
+      "cancel": "Cancel",
+      "pagination": {
+        "previous": "Previous",
+        "next": "Next",
+        "page": "Page {current} of {total}"
+      }
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back",
+    "cards": {
+      "personalInfo": {
+        "title": "Personal Info",
+        "labels": {
+          "name": "Name",
+          "email": "Email",
+          "status": "Status",
+          "notSet": "Not set"
+        }
+      },
+      "quickActions": {
+        "title": "Quick Actions",
+        "editProfile": "Edit Profile",
+        "accountSettings": "Account Settings",
+        "securitySettings": "Security Settings"
+      }
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "subtitle": "Manage your account settings and preferences",
+    "sections": {
+      "basicInfo": {
+        "title": "Basic Information",
+        "fullName": "Full Name",
+        "email": "Email Address",
+        "verificationStatus": "Verification Status",
+        "notSet": "Not set",
+        "nameNotSet": "Name not set",
+        "accountId": "Account ID"
+      },
+      "accountSettings": {
+        "title": "Account Settings",
+        "memberSince": "Member Since"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
+    "description": "Please reach out to us and we will get back to you shortly.",
+    "testimonial": {
+      "title": "We're here to help",
+      "description": "Our team is ready to assist you with any questions or feedback."
+    },
+    "form": {
+      "nameLabel": "Full Name",
+      "namePlaceholder": "John Doe",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "hello@example.com",
+      "companyLabel": "Company",
+      "companyPlaceholder": "Your Company",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Enter your message here",
+      "submitButton": "Submit",
+      "submitting": "Sending...",
+      "submitSuccess": "Message sent successfully!",
+      "submitError": "Failed to send message. Please try again."
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Latest insights and updates from our team",
+    "readMore": "Read More",
+    "minRead": "min read"
+  },
+  "errors": {
+    "404": {
+      "title": "404 - Page Not Found",
+      "message": "The page you are looking for doesn't exist.",
+      "backHome": "Go to Homepage"
+    },
+    "500": {
+      "title": "Something Went Wrong",
+      "message": "We're experiencing technical difficulties. Please try again later.",
+      "backHome": "Back to Home"
+    },
+    "general": {
+      "title": "An Error Occurred",
+      "message": "Something unexpected happened. Please try again.",
+      "tryAgain": "Try Again"
+    }
+  },
+  "featuredTestimonials": {
+    "people": [
+      {
+        "name": "John Doe",
+        "designation": "Software Engineer"
+      },
+      {
+        "name": "Jane Smith",
+        "designation": "Product Manager"
+      },
+      {
+        "name": "Bob Johnson",
+        "designation": "Designer"
+      },
+      {
+        "name": "Alice Brown",
+        "designation": "Developer"
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Discover the best AI tools to boost your productivity.",
+    "product": {
+      "title": "Product",
+      "features": "Features",
+      "documentation": "Documentation"
+    },
+    "company": {
+      "title": "Company",
+      "about": "About",
+      "blog": "Blog"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "cookies": "Cookies"
+    },
+    "social": {
+      "title": "Social",
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    },
+    "newsletter": {
+      "title": "Subscribe to Newsletter",
+      "description": "Get the latest updates and news directly in your inbox.",
+      "placeholder": "Enter your email",
+      "subscribe": "Subscribe"
+    }
+  },
+  "tools": {
+    "title": "AI Tools Directory",
+    "subtitle": "Discover the best AI tools to boost your productivity",
+    "searchPlaceholder": "Search tools...",
+    "all": "All",
+    "foundTools": "Found {count} tools",
+    "visitWebsite": "Visit website",
+    "noTools": "No tools found",
+    "backToTools": "Back to tools",
+    "about": "About",
+    "categories": "Categories",
+    "tags": "Tags",
+    "visitButton": "Visit Website",
+    "toolInfo": "Tool Info",
+    "domain": "Domain",
+    "added": "Added",
+    "notFound": "Tool Not Found"
+  },
+  "seo": {
+    "home": {
+      "title": "Toolso.AI - Discover the Best AI Tools Directory",
+      "description": "Explore our curated collection of AI tools across various categories. Find the perfect AI tools for productivity, creativity, development, and more.",
+      "ogImage": "https://toolso.ai/banner.png"
+    },
+    "blog": {
+      "title": "Blog - Toolso.AI",
+      "description": "Latest insights, tutorials and updates about AI tools. Stay informed about the best AI tools and industry trends.",
+      "ogImage": "https://toolso.ai/banner.png"
+    },
+    "contact": {
+      "title": "Contact Us - Toolso.AI",
+      "description": "Get in touch with us. We'd love to hear your feedback and tool suggestions.",
+      "ogImage": "https://toolso.ai/banner.png"
+    },
+    "login": {
+      "title": "Login - Toolso.AI",
+      "description": "Sign in to your account to submit tools, save favorites, and contribute to our AI tools directory.",
+      "ogImage": "https://toolso.ai/banner.png"
+    },
+    "signup": {
+      "title": "Sign Up - Toolso.AI",
+      "description": "Create your account and start contributing to our AI tools directory. Submit tools and join our community.",
+      "ogImage": "https://toolso.ai/banner.png"
+    },
+    "terms": {
+      "title": "Terms of Service - Toolso.AI",
+      "description": "Read our terms of service to understand the rules and guidelines for using Toolso.AI.",
+      "ogImage": "https://toolso.ai/banner.png"
+    },
+    "privacy": {
+      "title": "Privacy Policy - Toolso.AI",
+      "description": "Learn how we collect, use, and protect your personal information and data on Toolso.AI.",
+      "ogImage": "https://toolso.ai/banner.png"
+    },
+    "cookies": {
+      "title": "Cookie Policy - Toolso.AI",
+      "description": "Understand how we use cookies and similar tracking technologies on Toolso.AI.",
+      "ogImage": "https://toolso.ai/banner.png"
+    },
+    "tools": {
+      "title": "AI Tools Directory - Discover the Best AI Tools",
+      "description": "Explore our curated collection of AI tools. Find the best AI tools for productivity, creativity, and more."
+    }
+  }
+}
