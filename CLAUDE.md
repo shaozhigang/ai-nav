@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 项目概览
 
-这是一个**开源的 AI 工具导航站 (Toolso.AI)**，帮助用户发现和探索各类优秀的 AI 工具。基于 Next.js 16 构建，拥有现代化的响应式界面、强大的搜索和筛选功能、多语言支持。
+这是一个**开源的 AI 工具导航站**，帮助用户发现和探索各类优秀的 AI 工具。基于 Next.js 16 构建，拥有现代化的响应式界面、强大的搜索和筛选功能、多语言支持。
 
 **核心特性**:
 - AI 工具目录 (分类展示、搜索筛选、工具详情)
